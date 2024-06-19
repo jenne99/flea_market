@@ -43,7 +43,7 @@ public class DealDAO {
 				+ 0 + "," + 0 + "," + ",CURDATE())";
 
 		/*
-		//特定の日付で購入したい場合に使う変数(主にデバッグ用)
+		//特定の日付で購入したい場合に使うSQL文の設定(主にデバッグ用)
 		String day = "'2024-07-01'";
 		String sql = "INSERT INTO deal_info VALUES(NULL," + item_id + "," + user_id + ","
 				+ 0 + "," + 0 + "," + "," + day +")";
